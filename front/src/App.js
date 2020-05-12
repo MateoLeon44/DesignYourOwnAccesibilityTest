@@ -20,6 +20,8 @@ const App = () => {
       });
   }, []);
 
+  
+  //No exponer ids de usuarios o dejarlos quemados en el código
   return (
     <Router>
       <NavBar user={user}></NavBar>
